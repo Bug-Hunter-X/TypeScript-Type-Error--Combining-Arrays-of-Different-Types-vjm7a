@@ -1,0 +1,3 @@
+# TypeScript Type Error: Combining Arrays of Different Types
+
+This repository demonstrates a common TypeScript type error encountered when attempting to combine arrays of different types using generics.  The `combineArrays` function aims to merge two arrays of any type, but the compiler correctly flags an error when trying to combine arrays of numbers and strings.  The solution shows how to address this using type guards or type assertions.
